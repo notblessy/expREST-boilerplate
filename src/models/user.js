@@ -1,4 +1,4 @@
-import { Model } from 'sequelize';
+const { Model } = require('sequelize');
 
 const User = (sequelize, DataTypes) => {
   class User extends Model {
@@ -25,4 +25,4 @@ const User = (sequelize, DataTypes) => {
   return User;
 };
 
-export default User;
+module.exports = User;
