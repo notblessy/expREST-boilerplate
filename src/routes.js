@@ -17,5 +17,9 @@ routes.get('/', (_, res) => {
 });
 
 routes.post('/register', auth.register);
+routes.post('/login', auth.login);
+routes.get('/profile', jwtMiddleware, auth.profile);
+routes.put('/profile', jwtMiddleware, auth.edit);
+routes.put('/profile/password', jwtMiddleware, auth.editPassword);
 
 module.exports = routes;
