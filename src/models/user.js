@@ -16,6 +16,7 @@ const User = (sequelize, DataTypes) => {
       name: DataTypes.STRING,
       email: DataTypes.STRING,
       password: DataTypes.STRING,
+      role: DataTypes.ENUM('ADMIN', 'CUSTOMER'),
     },
     {
       sequelize,
