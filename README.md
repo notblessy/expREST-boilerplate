@@ -1,6 +1,6 @@
-# expREST-eCommerce
+# expREST-boilerplate
 
-expREST eCommerce is a Backend shopping API based on Nodejs, Express and Sequelize.
+expREST eCommerce is a boilerplate based on Nodejs, Express and Sequelize.
 
 ## Requirements
 
@@ -11,11 +11,6 @@ expREST eCommerce is a Backend shopping API based on Nodejs, Express and Sequeli
 ## Features
 
 - User Authentication
-- Address accociation with User
-- Create, Edit, Delete Master Products
-- Add to cart with Redis
-- Order Checkout
-- Payment Confirmation
 
 ## How to Run
 
@@ -24,13 +19,13 @@ expREST eCommerce is a Backend shopping API based on Nodejs, Express and Sequeli
 First clone this repo by run:
 
 ```sh
-$ git clone https://github.com/notblessy/expREST-eCommerce
+$ git clone https://github.com/notblessy/expREST-boilerplate
 ```
 
 then go to the project folder
 
 ```sh
-$ cd expREST-eCommerce
+$ cd expREST-boilerplate
 $ npm install
 ```
 
@@ -41,7 +36,7 @@ All API docs are available in docs folder. The API docs are documented using Pos
 ### Postman Collections Directory
 
 ```sh
-/docs/expREST eCommerce.postman_collection.json
+/docs/expREST boilerplate.postman_collection.json
 ```
 
 ## Usage
